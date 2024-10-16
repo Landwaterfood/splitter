@@ -1,0 +1,7 @@
+function Percent() {
+    return (
+        <>
+        
+        </>
+    )
+}
