@@ -1,18 +1,13 @@
-import Splitter from './Splitter/index.jsx';
-import Wrap from './Wrap/index.jsx';
-import DollarDisplay from './DollarDisplay/index.jsx';
-import Textbox from './Textbox/index.jsx';
-
-
+import Splitter from './Components/Splitter/index.jsx';
+import LHSContainer from './Components/LHSContainer/index.jsx';
+import RHSContainer from './Components/RHSContainer/index.jsx';
 
 function App() {
   return (
     <>
       <Splitter/>
-      <Wrap>
-        <Textbox/>
-        <DollarDisplay/>
-      </Wrap>
+      <LHSContainer/>
+      <RHSContainer/>
     </>
     
   )

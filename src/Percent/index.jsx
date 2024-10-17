@@ -1,7 +1,0 @@
-function Percent() {
-    return (
-        <>
-        
-        </>
-    )
-}
