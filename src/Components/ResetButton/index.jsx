@@ -1,13 +1,17 @@
-function ResetButton() {
-    element.addEventListener('click')
+function ResetButton({handleReset}) {
+    const [resetState, setResetState] =useState('')
+    const handleResetStateChange = ( e ) = {
+        const preResetState = e.target.value;
 
-    const handleClick = (
-
-        window.location.assign("https://www.w3schools.com/js/tryit.asp?filename=tryjs_loc_assign")
-    )
-
-
-
-    return  <button className="" onClick={ handleClick }>Reset</button>
+        setResetState(preResetState);
+    
+};
+    
+    return (
+    <button 
+    className="p-5" 
+    onClick={clickHandler}>Reset
+    </button>
+    );
 }
 export default ResetButton;
